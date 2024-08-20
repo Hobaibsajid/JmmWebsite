@@ -10,6 +10,7 @@ import excellent from '../assets/PNG/excellence.png'
 import innov from '../assets/PNG/innovation.png'
 import colla from '../assets/PNG/colla.png'
 import inclusive from '../assets/PNG/inclusi.png'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -50,7 +51,7 @@ const About = () => {
           
           <h1 className='text-[#FFFFFF] text-4xl font-mukta font-bold'>Get A Free Consultation</h1>
           
-          <div><button className='text-[#009985] bg-white p-2 px-8 rounded-full hover:bg-[#009966] hover:duration-500  hover:text-white '>Get Started</button></div>
+          <div><Link to="/contact"><button className='text-[#009985] bg-white p-2 px-8 rounded-full hover:bg-[#009966] hover:duration-500  hover:text-white '>Get Started</button></Link></div>
     </div>
 
     <div className='h-[555px] bg-[#F9F9F9]'>
